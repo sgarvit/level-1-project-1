@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#top-part {
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+#left-nav a {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#left-nav i {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#login {
+    background-color: transparent;
+    padding: 5px 15px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#signup {
+    background-color: orange;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#content-part {
+    width: 100%;
+}
+
+#content-part h1 {
+    width: 100%;
+    font-size: 200px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+#content-part img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+
+#content-part #img1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#content-part #img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#content-part #img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#content-part #img4 {
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+#bottom-part {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    margin-top: 38.9%;
+}
+
+#bottom-part h5 {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+
+#bottom-part>i {
+    padding: 40px;
+    border-radius: 50%;
+    font-size: 40px;
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1.5px solid black;
+}
